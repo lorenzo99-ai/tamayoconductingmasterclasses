@@ -1,0 +1,16 @@
+# Design handoff — reference only, never commit or deploy
+_design-handoff/
+handoff_masterclass_website/
+
+# OS
+.DS_Store
+
+# Node / build (for when the site is scaffolded)
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+*.log
+.env*.local
