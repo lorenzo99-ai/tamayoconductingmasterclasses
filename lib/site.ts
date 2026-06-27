@@ -51,6 +51,12 @@ export const WATCH_VIDEOS: {
     description:
       "Arturo Tamayo conducts Hindemith Gesänge op. 9, Karan Armstrong (soprano) with the Orchestre National de France",
   },
+  {
+    url: "https://www.youtube.com/embed/JNfFeQ9iqY0",
+    label: "Arturo Tamayo conducts Boulez — 3ème Improvisation sur Mallarmé",
+    description:
+      "Arturo Tamayo Conducts Pierre Boulez | 3ème Improvisation sur Mallarmé",
+  },
 ];
 
 // Testimonials — `id` is a YouTube Shorts video id (vertical 9:16), shown via a
