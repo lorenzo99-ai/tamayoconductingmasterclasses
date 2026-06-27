@@ -13,6 +13,7 @@ const works = [
   {
     composer: "R. Strauss",
     title: "Vier letzte Lieder",
+    sub: "1948 version, 2005 arrangement for soprano and ensemble",
   },
 ];
 
