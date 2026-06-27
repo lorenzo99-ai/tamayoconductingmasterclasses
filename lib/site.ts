@@ -46,12 +46,6 @@ export const WATCH_VIDEOS: {
       "Arturo Tamayo conducts E. Elgar, Cello Concerto. with Orquestra de la Radio Televisión Española and Arturo Muruzábal (cello)",
   },
   {
-    url: "https://www.youtube.com/embed/HxfZzxMMCwE",
-    label: "Arturo Tamayo conducts Hindemith — Gesänge op. 9",
-    description:
-      "Arturo Tamayo conducts Hindemith Gesänge op. 9, Karan Armstrong (soprano) with the Orchestre National de France",
-  },
-  {
     url: "https://www.youtube.com/embed/JNfFeQ9iqY0",
     label: "Arturo Tamayo conducts Boulez — 3ème Improvisation sur Mallarmé",
     description:
