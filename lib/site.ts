@@ -17,48 +17,66 @@ export const EVENT = {
 // Set `src` (a path under /public, e.g. "/images/maestro.jpg") once supplied.
 // While null, the section renders an on-brand styled placeholder frame.
 export const MAESTRO_PHOTO: { src: string | null; alt: string } = {
-  src: null,
+  src: "/images/tamayo-portrait.png",
   alt: "Portrait of Maestro Arturo Tamayo",
 };
 
 export const ORCHESTRA_PHOTO: { src: string | null; alt: string } = {
-  src: null,
+  src: "/images/orchestra-philharmonie.jpg",
   alt: "The Berliner Symphoniker in the Berlin Philharmonie",
 };
 
 // Watch section — set `url` to a YouTube/Vimeo embed URL once supplied.
-export const WATCH_VIDEOS: { url: string | null; label: string }[] = [
-  { url: null, label: "Video placeholder — add link" },
-  { url: null, label: "Video placeholder — add link" },
-  { url: null, label: "Video placeholder — add link" },
-];
-
-// Testimonials — quotes/attribution are placeholder until real ones arrive.
-export const TESTIMONIALS: {
-  videoUrl: string | null;
-  quote: string;
-  name: string;
-  meta: string;
+// Watch section — `url` is a YouTube embed URL, `description` shows beneath it.
+export const WATCH_VIDEOS: {
+  url: string | null;
+  label: string;
+  description?: string;
 }[] = [
   {
-    videoUrl: null,
-    quote:
-      "The podium time with a professional orchestra was transformative — I walked away with a recording I'm genuinely proud to send to competitions.",
-    name: "Participant placeholder",
-    meta: "Conductor · Berlin 2024",
+    url: "https://www.youtube.com/embed/ym-cOKR9ZRs",
+    label: "Arturo Tamayo conducts Debussy — La Mer",
+    description:
+      'Arturo Tamayo conducts C. Debussy "Le Mer" with Orquestra de la Radio Televisión Española',
   },
   {
-    videoUrl: null,
-    quote:
-      "Maestro Tamayo's feedback was precise, generous and deeply musical. Four days that genuinely changed how I work in front of an orchestra.",
-    name: "Participant placeholder",
-    meta: "Conductor · Berlin 2024",
+    url: "https://www.youtube.com/embed/3KNzStSAcY0?start=82",
+    label: "Arturo Tamayo conducts Elgar — Cello Concerto",
+    description:
+      "Arturo Tamayo conducts E. Elgar, Cello Concerto. with Orquestra de la Radio Televisión Española and Arturo Muruzábal (cello)",
   },
   {
-    videoUrl: null,
-    quote:
-      "A rare chance to rehearse real repertoire with a real orchestra. The individual attention and the final video made it worth every moment.",
-    name: "Participant placeholder",
-    meta: "Conductor · Berlin 2023",
+    url: "https://www.youtube.com/embed/HxfZzxMMCwE",
+    label: "Arturo Tamayo conducts Hindemith — Gesänge op. 9",
+    description:
+      "Arturo Tamayo conducts Hindemith Gesänge op. 9, Karan Armstrong (soprano) with the Orchestre National de France",
+  },
+];
+
+// Testimonials — `id` is a YouTube Shorts video id (vertical 9:16), shown via a
+// privacy-enhanced facade player; `quote` and attribution render beneath it.
+export const TESTIMONIALS: {
+  id: string;
+  quote: string;
+  name: string;
+  role: string;
+}[] = [
+  {
+    id: "JT7S9E4X9n8",
+    quote: `"It's been a wonderful couple of days. It's been really wonderful to work with Maestro Tamayo who's a formidable interpreter and incredibly experienced conductor"`,
+    name: "Cristopher Knox Oakey",
+    role: "Active Participant, Berlin 2026",
+  },
+  {
+    id: "JzlvJFn1dk8",
+    quote: `"It was absolutely fabulous, I learned so much." He would "100%" recommend the masterclass to other conductors.`,
+    name: "Andrew Casey",
+    role: "Active Participant, Berlin 2025",
+  },
+  {
+    id: "sYqyiB5qcjM",
+    quote: `"This was a very intense week, but also an amazing week. The Berliner Symphoniker is a very nurturing ensemble, flexible, open to new ideas and nurturing young talent and helping conductors grow"`,
+    name: "Quinn Mason",
+    role: "Active Participant, Berlin 2025",
   },
 ];

@@ -1,4 +1,4 @@
-import VideoFrame from "./VideoFrame";
+import TestimonialVideo from "./TestimonialVideo";
 import { TESTIMONIALS } from "@/lib/site";
 
 export default function Testimonials() {
@@ -13,34 +13,23 @@ export default function Testimonials() {
             What participants from previous masterclasses say about us
           </h2>
         </div>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[22px]">
-          {TESTIMONIALS.map((t, i) => (
+        <div className="flex flex-wrap justify-center gap-7">
+          {TESTIMONIALS.map((t) => (
             <div
-              key={i}
-              className="overflow-hidden rounded-[5px] border border-paper/[0.14] bg-paper/[0.05] px-[30px] py-8"
+              key={t.id}
+              className="flex w-full max-w-[330px] flex-col rounded-[8px] border border-paper/10 bg-paper/[0.04] p-5"
             >
-              <div className="mx-[-30px] mb-[26px] mt-[-32px]">
-                <VideoFrame
-                  url={t.videoUrl}
-                  label="Video placeholder — add link"
-                  size="sm"
-                  className="!rounded-none !border-0 !border-b !border-paper/[0.12]"
-                />
-              </div>
-              <div className="h-6 font-serif text-[42px] leading-[0.6] text-accent">
-                &ldquo;
-              </div>
-              <p className="m-0 mb-[22px] font-serif text-[18px] italic leading-[1.5] text-[#f0e6d8]">
+              <TestimonialVideo id={t.id} name={t.name} />
+              <p className="mb-0 mt-5 font-serif text-[16.5px] italic leading-[1.55] text-[#f0e6d8]">
                 {t.quote}
               </p>
-              <div className="text-sm font-bold text-white">{t.name}</div>
-              <div className="mt-[2px] text-[13px] text-[#a99c8a]">{t.meta}</div>
+              <div className="mt-5 border-t border-paper/10 pt-4">
+                <div className="text-[15px] font-bold text-white">{t.name}</div>
+                <div className="mt-[3px] text-[13px] text-rose">{t.role}</div>
+              </div>
             </div>
           ))}
         </div>
-        <p className="m-0 mt-7 text-center text-[13px] text-muted">
-          Replace the videos and quotes with real participant testimonials.
-        </p>
       </div>
     </section>
   );
