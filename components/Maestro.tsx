@@ -141,7 +141,7 @@ export default function Maestro() {
                 Antike Musikspiele in Trier &quot;Antigone&quot; by Arthur
                 Honegger and Strawinky&apos;s &quot;Oedipus Rex&quot;
                 &quot;Prometeo&quot; by Luigi Nono. (Gibellina, Madrid, Berlin) In
-                the Bunka Kaikun Theater Tokyo &quot;Erwaltung&quot; by Arnold
+                the Bunka Kaikun Theater Tokyo &quot;Erwartung&quot; by Arnold
                 Schöenberg and &quot;La voix humaine&quot; by Francis Poulenc with
                 Jessie Norman as soloist…
               </p>
@@ -156,7 +156,10 @@ export default function Maestro() {
                 containing the orchestral music of Franco Donatoni and “The Rara
                 Requiem by Sylvano Bussotti; the “Concerti per Orchestra” by
                 Goffredo Petrassi with the Radio Symphony Orchestra Hilversum and
-                the Orchestrawer.
+                the Orchestrawer. He then recorded a CD with the last works of
+                Alberto Ginastera with the Deutsches Symphonie Orchester Berlin
+                as well as 5 CDs with the RSO Frankfurt performing the orchestral
+                works of Bruno Maderna.
               </p>
               <p className="m-0">
                 Arturo Tamayo has given conducting lessons at the Freiburg
