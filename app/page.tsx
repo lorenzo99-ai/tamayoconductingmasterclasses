@@ -7,6 +7,7 @@ import Schedule from "@/components/Schedule";
 import Repertoire from "@/components/Repertoire";
 import Maestro from "@/components/Maestro";
 import Watch from "@/components/Watch";
+import Soloist from "@/components/Soloist";
 import Orchestra from "@/components/Orchestra";
 import Testimonials from "@/components/Testimonials";
 import Gallery from "@/components/Gallery";
@@ -26,6 +27,7 @@ export default function Home() {
       <Repertoire />
       <Maestro />
       <Watch />
+      <Soloist />
       <Orchestra />
       <Testimonials />
       <Gallery />

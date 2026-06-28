@@ -21,6 +21,11 @@ export const MAESTRO_PHOTO: { src: string | null; alt: string } = {
   alt: "Portrait of Maestro Arturo Tamayo",
 };
 
+export const SOLOIST_PHOTO: { src: string | null; alt: string } = {
+  src: "/images/carole-portrait.jpg",
+  alt: "Portrait of soprano Carole Sidney Louis",
+};
+
 export const ORCHESTRA_PHOTO: { src: string | null; alt: string } = {
   src: "/images/orchestra-philharmonie.jpg",
   alt: "The Berliner Symphoniker in the Berlin Philharmonie",

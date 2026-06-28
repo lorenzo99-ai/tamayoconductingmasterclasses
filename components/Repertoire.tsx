@@ -14,6 +14,7 @@ const works = [
     composer: "R. Strauss",
     title: "Vier letzte Lieder",
     sub: "1948 version, 2005 arrangement for soprano and ensemble",
+    soloist: "Carole Sidney Louis",
   },
 ];
 
@@ -52,6 +53,11 @@ export default function Repertoire() {
                     </div>
                     {w.sub && (
                       <div className="mt-[5px] text-sm text-muted">{w.sub}</div>
+                    )}
+                    {w.soloist && (
+                      <div className="mt-[5px] text-sm font-semibold text-accent">
+                        Soloist: {w.soloist}
+                      </div>
                     )}
                   </div>
                   {w.tag && (
